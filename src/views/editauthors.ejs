@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors edit</title>
+</head>
+<body>
+   
+
+    
+        <form method="POST" action="/authors/b/<%=author._id%>">
+            <h2 >Edit Book</h2>
+            <br>
+            
+                <label >Author Name</label>
+                <input  name="name" type="text"  value="<%=author.name%>" >
+            
+            <br>
+            
+                <label >Country</label>
+                <input name="country" type="text"  value="<%=author.country%>" >
+            
+            <br>
+            
+                <label >Genre</label>
+                <input name="genre" type="text"  value="<%=author.genre%>" >
+            
+            <br>
+            
+              <label >Image</label>
+              <input name="image" placeholder="image" type="file" src="/images/<%=author.image%>" >
+            
+            <br>
+            
+                <button type="submit" >Edit</button>
+            
+
+        </form>
+
+    
+</body>
+</html>

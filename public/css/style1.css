@@ -1,0 +1,139 @@
+#form-container {
+	margin-top: 25px;
+	margin-left: 28%;
+	width: 600px;
+	height: 600px;
+    /* background-color:#B87341 ; */
+	border: 1p blue solid;
+}
+body{
+    background-image: url(/images/back.jpg);
+    background-blend-mode: darken;
+    position: relative;
+}
+
+
+  #titile {
+	margin-top: 50px;
+	margin-left: 28%;
+	width: 602px;
+	height: 30px;
+	/* background-color:#B87341; */
+}
+
+
+input[type="text"], input[type="password"] {
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 3.50%;
+
+}
+
+
+input[type="submit"] {
+	width: 50px;
+	height: 30px;
+	background-color: gray; 
+	color: white;
+	border: none;
+	/* margin-top: 10px; */
+	margin-left: 250px;
+	cursor: pointer;
+
+}
+
+
+
+input[type="submit"]:hover {
+	background-color: black;
+}
+
+ fieldset {
+	width: 600px;
+	margin-left: 28%;
+	height: 200px;
+	margin-top: 15%;
+} 
+
+    h3 {
+	color: white;
+	text-align: center;
+}     
+
+
+#show-password {
+	margin-left: 150px;
+	font-family: sans-serif;
+	
+}  
+
+span {
+	color: white;
+	background-color: #f34747c7;
+	border-bottom: 3px solid white;
+}   
+
+ input[type="checkbox"]{
+	cursor: pointer;
+} 
+
+#password-message {
+	margin-left: 28%;
+	width: 600px;
+	height: 200px;
+	background-color: solid;
+	border: 1px blue solid;
+	display: none;
+	margin-top: 1px;
+
+} 
+
+.invalid {
+	color:blue
+}
+
+.invalid:before {
+	position: relative;
+	left: -35px;
+	content: "✖";
+}
+
+
+.valid {
+	color: green;
+}
+
+.valid:before {
+	position: relative;
+	left: -35px;
+	content: "✔";
+}
+
+ h4 {
+	text-align: center;
+} 
+
+p {
+	margin-left: 50px;
+	color: white;
+}
+
+label {
+	color: gray;
+	font-style: bold;
+}
+
+#signup {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration-style: double;
+	text-decoration-line: unset;
+	text-rendering: auto;
+}
+
+input[type="checkbox"] {
+    margin-left: 7px;
+}  

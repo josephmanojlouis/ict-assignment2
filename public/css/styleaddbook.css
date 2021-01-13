@@ -1,0 +1,54 @@
+.body{
+    margin: 0px;
+}
+
+#head {
+    
+    height: 50px;
+    text-align: center;
+    color:white;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(/images/back.jpg);
+    background-blend-mode: darken;
+    position: relative;
+}
+
+
+.colum {
+    border: 1px solid black ;
+    height: 25em;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    /* background-color:#B87341; */
+    color:white;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#inp {
+    text-align: right;
+    margin-left: 110px;
+  }
+ input{
+     color:black;
+ }
+  input:hover{
+    /* border: 10px solid red; 
+    border-top-color: orange; */
+    background-color:black;
+    opacity:1.0;
+    color: red;
+    
+  }
+
+  button:hover{
+      background-color: black;
+  }
